@@ -11,3 +11,4 @@ Remove: Removing element from specific index = O(n)
 Lookup by Index: Fetch the value by index = O(n)
 Lookup by Value: Fetch the actual value = O(n)
 
+Basically acts as nested HashMap
