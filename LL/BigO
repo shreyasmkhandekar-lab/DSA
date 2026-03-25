@@ -1,0 +1,13 @@
+Linked List Big O:
+
+Prepend: Adding element to head = O(1)
+Append: Adding element to tail = O(1)
+Remove First: Removing element from head = O(1)
+Remove last: Removing element from tail = O(1)
+
+Insert: Adding element to specific index = O(n)
+Remove: Removing element from specific index = O(n)
+
+Lookup by Index: Fetch the value by index = O(n)
+Lookup by Value: Fetch the actual value = O(n)
+
