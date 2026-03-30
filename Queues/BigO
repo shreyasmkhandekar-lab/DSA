@@ -1,0 +1,8 @@
+Queues BigO:
+
+When implemented with a linked list:
+
+Enqueue: Add an element at the last: O(1)
+Dequeue: Remove an element from the first: O(1)
+
+FIFO: First In First Out

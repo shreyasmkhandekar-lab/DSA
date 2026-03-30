@@ -6,3 +6,5 @@ Pop: Removing an element: O(1)
 Peek: Get an element from top: O(1)
 
 Check Emptiness: (Check whether the top points to null): O(1)
+
+LIFO: Last In First Out
