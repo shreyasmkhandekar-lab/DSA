@@ -1,0 +1,146 @@
+Trees BigO and terminologies:
+
+1. Full Binary Tree: (Valid (all nodes have 0 or 2 children))
+        A
+      /   \
+     B     C
+    / \   / \
+   D   E F   G
+
+2. Perfect Binary Tree: (All internal nodes have 2 children AND All leaves are at the same level)
+
+        A
+      /   \
+     B     C
+    / \   / \
+   D   E F   G
+
+3. Imperfect Binary Tree: (Any tree that is NOT perfect)
+
+        A
+      /   \
+     B     C
+    /     / \
+   D     E   F
+
+4. Complete Binary Tree: (All levels are full except possibly last; Last level filled left to right)
+
+        A
+      /   \
+     B     C
+    / \   /
+   D   E F
+
+5. Incomplete Binary Tree: (Not complete (violates left-to-right filling))
+
+        A
+      /   \
+     B     C
+      \   /
+       E F
+
+6. Degenerate (Skewed) Tree: (Every node has only one child)
+
+Left-skewed:                                                       
+    A                                            
+   /
+  B
+ /
+C
+/
+D
+
+Right-skewed:
+A
+ \
+  B
+   \
+    C
+     \
+      D
+
+7. Balanced Binary Tree: (Height difference between left & right ≤ 1)      
+
+        A
+      /   \
+     B     C
+    / \     \
+   D   E     F
+
+8. Unbalanced Binary Tree: (Height difference > 1)
+
+        A
+       /
+      B
+     /
+    C
+   /
+  D
+
+9. Binary Search Tree (BST): (Left < Root < Right)
+
+        8
+      /   \
+     3     10
+    / \      \
+   1   6      14
+      / \     /
+     4   7   13
+
+10. Heap (Min Heap Example): (Complete tree + heap property)
+
+        2
+      /   \
+     5     8
+    / \   /
+   10 12 9
+
+
+BINARY TREE TYPES – QUICK SUMMARY
+
+1. Full Binary Tree
+- Every node has either 0 or 2 children
+
+2. Perfect Binary Tree
+- All nodes have 2 children (except leaves)
+- All leaves are at the same level
+- Total nodes = 2^h - 1
+
+3. Complete Binary Tree
+- All levels are completely filled except possibly the last
+- Last level is filled from left to right (no gaps)
+
+4. Incomplete Binary Tree
+- Not complete
+- Has gaps in the last level (not filled left to right)
+
+5. Imperfect Binary Tree
+- Any tree that is not perfect
+- Leaves may be at different levels
+
+6. Balanced Binary Tree
+- Height difference between left and right subtree ≤ 1
+
+7. Unbalanced Binary Tree
+- Height difference > 1
+- Can degrade to O(n) performance
+
+8. Degenerate (Skewed) Tree
+- Each node has only one child
+- Looks like a linked list
+
+9. Binary Search Tree (BST)
+- Left subtree < root < right subtree
+- Used for searching/sorting
+
+10. Heap (Binary Heap)
+- Complete binary tree
+- Min Heap: parent ≤ children
+- Max Heap: parent ≥ children
+
+
+BigO:
+
+Lookup, Insert, remove: O(log n) 
+
+
