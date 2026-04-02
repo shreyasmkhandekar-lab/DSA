@@ -19,9 +19,6 @@ public class Main {
         System.out.println(myBST.contains(56));
         System.out.println(myBST.contains(27));
         System.out.println(myBST.contains(29));
-        
-
-
-
     }
 }
+
