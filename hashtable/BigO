@@ -1,0 +1,9 @@
+BigO for Hash Tables:
+
+Hash Method: O(1)
+--> same number of operations to determine a hash regardless of number of items already in the hashtable.
+
+Set Method: O(1)
+
+Get Method: O(1)
+--> Assuming we have a very big hash table and a good randomizing hash method
