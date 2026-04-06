@@ -1,0 +1,28 @@
+BigO of graphs:
+
+for space complexity:
+
+Adjecency Matrix: O( |V^2| )
+Adjecency List: O(|V| + |E|)
+
+where V represents Number of vertices and E represents number of edges.
+
+Adjecency List >>> Adjecency matrix
+--> As you only have to store the connected edges in the list 
+contrary to storing all the connections in adjecency matrix
+
+Adding an element:
+Adjecency List: O(1)
+Adjecency Matrix: O( |V^2| )
+
+Adding an Edge:
+Adjecency List: O(1)
+Adjecency Matrix: O(1)
+
+Remove an Edge:
+Adjecency List: O( |E| )
+Adjecency Matrix: O(1)
+
+Remove an element:
+Adjecency Matrix: O(|V| + |E|)
+Adjecency List: O( |V^2| )
