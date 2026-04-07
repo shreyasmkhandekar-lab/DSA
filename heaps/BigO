@@ -1,0 +1,12 @@
+A heap is a Binary Search Tree but the numbers are laid out in a different way
+
+Each node has a value greater than it's descendants. (Meaning the root has the highest value in the tree)
+
+This tree will always be complete.
+
+Heaps can have duplicates.
+
+Min-Heap : reversed. (Minimum value at the top)
+
+implemented using an ArrayList.
+
